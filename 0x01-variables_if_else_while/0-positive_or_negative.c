@@ -1,7 +1,8 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/** Main - returns random integer
+/*
+ * Main - returns random integer
  * Description: This function returns a random nuber for certain conditions
  * Return: 0
  */
@@ -11,19 +12,17 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	printf("%d \n", n);
 	if (n > 0)
 	{ 
-		printf("The number is positive \n");
+		printf("%d is positive \n", n);
 	}
 	else if (n < 0)
 	{
-		printf("The number is negative \n");
+		printf("%d is negative \n", n);
 	}
 	else
 	{
-		printf("The number is zero \n");
+		printf("%d is zero \n", n);
 	}
 	return (0);
 }
-
