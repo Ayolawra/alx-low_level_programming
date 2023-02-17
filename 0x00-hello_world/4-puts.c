@@ -1,7 +1,14 @@
 #include <stdio.h>
-int main()
-{char ch = "Programming is like building a multilingual puzzle\n";
-	putchar(ch);
+
+/**
+ * main-entry point
+ * Description: Prints "\"Programming is like building a multilingual puzzle"
+ * Returns 0
+ */
+
+int main(void)
+{	puts("\"Programming is like building a multilingual puzzle");
 	return(0);
+
 }
 	
