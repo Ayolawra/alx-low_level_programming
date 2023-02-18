@@ -14,7 +14,7 @@ int main(void)
 	{
 		putchar((char) (num + 48));
 
-		if (num == 0)
+		if (num == 9)
 
 		{
 			continue;
