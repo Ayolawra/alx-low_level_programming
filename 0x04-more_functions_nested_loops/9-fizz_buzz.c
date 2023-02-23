@@ -1,10 +1,8 @@
 #include <stdio.h>
-#include <stdlib.h>
-
 /**
- * main - function fizzbuzz
+ * main - replace multiples of 3 and 5
  *
- * Return: int
+ * Return: 0
  */
 int main(void)
 {
@@ -12,13 +10,17 @@ int main(void)
 
 	for (i = 1; i <= 100; i++)
 	{
-		if (i % 15 == 0)
+		if (i % 3 == 0 && i % 5 == 0)
 		{
-			printf("FizzBuzz");
+			printf("%s", "FizzBuzz");
+		}
+		else if (i % 3 == 0)
+		{
+			printf("%s", "Fizz");
 		}
 		else if (i % 5 == 0)
 		{
-			printf("Buzz");
+			printf("%s", "Buzz");
 		}
 		else
 		{
@@ -28,7 +30,6 @@ int main(void)
 		{
 			printf(" ");
 		}
-
 	}
 	printf("\n");
 	return (0);
