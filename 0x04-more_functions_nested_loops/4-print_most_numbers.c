@@ -17,10 +17,10 @@ void print_most_numbers(void)
 		{
 			continue;
 		}
-		putchar('0' + i);
+		_putchar('0' + i);
 	}
 
-	putchar('\n');
+	_putchar('\n');
 
 
 
