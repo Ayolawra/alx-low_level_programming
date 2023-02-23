@@ -5,7 +5,7 @@
  * _isdigit - function checks for if the variable is a digit
  *
  * @c: variable to check
- * Return; int 1 or 0
+ * Return: int 1 or 0
  */
 int _isdigit(int c)
 {
