@@ -1,1 +1,1 @@
-pointers and arrays continued
+This repository explores the basics of c programming language.
