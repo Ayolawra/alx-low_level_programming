@@ -8,7 +8,7 @@
  * struct listint_s - singly linked list
  * @n: integer
  * @next: pointer to the next node
- * 
+ *
  * Description: singly linked list node struct
  */
 
@@ -34,5 +34,6 @@ typedef struct listp_s
 
 
 size_t print_listint(const listint_t *h);
+size_t listint_len(const listint_t *h);
 
 #endif
